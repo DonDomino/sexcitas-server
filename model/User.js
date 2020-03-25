@@ -28,19 +28,8 @@ const userSchema = mongoose.Schema({
     password: {
       type: String,
       required: [true, 'is required']
-    },
-    image: {
-      type: String
-    },
-    description: {
-      type: String
-    },
-    liked: {
-      type : Array
-    },
-    likedTo: {
-      type : Array
     }
+    
   });
   
   // hashes the password
