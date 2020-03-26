@@ -9,7 +9,7 @@ const userSchema = mongoose.Schema({
       match: [/^[a-zA-Z]+$/, 'Invalid character']
     },
     gender: {
-      type: Number,
+      type: String,
       required: [true, 'is required']
     },
     age: {
